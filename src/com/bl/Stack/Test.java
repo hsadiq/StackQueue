@@ -10,6 +10,10 @@ public class Test {
         stack.push(30);
         stack.push(70);
 
-        System.out.print(stack + " ");
+        while (!stack.isEmpty()){
+            System.out.println("Popped Element: " + stack.pop());
+            System.out.println("Peeked Element: " + stack.peek());
+            System.out.println("Current Element: " + stack);
+        }
     }
 }
