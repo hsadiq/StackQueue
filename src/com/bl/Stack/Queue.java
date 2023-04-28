@@ -11,5 +11,10 @@ public class Queue {
         queue.push(70);
 
         System.out.print(queue);
+
+        while(!queue.isEmpty()){
+            System.out.println("Dequeue Element: " + queue.pop());
+            System.out.println("Current Element: " + queue);
+        }
     }
 }
